@@ -1,3 +1,11 @@
+//  Modo oscuro  //
+const btnSwitch = document.querySelector('#switch');
+
+btnSwitch.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  btnSwitch.classList.toggle('active');
+});
+
 //  Mostrar y ocultar menú  //
 const navMenu = document.getElementById('nav-menu'),
     toggleMenu = document.getElementById('nav-toggle'),
@@ -43,3 +51,4 @@ function scrollActive(){
     }
   })
 }
+
