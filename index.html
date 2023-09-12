@@ -17,6 +17,7 @@
       @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
     </style>
     <title>Curriculum Vitae</title>
+
   </head>
   <body>
     <!-- header -->
@@ -28,6 +29,10 @@
 
         <div>
           <a href="#" class="nav__logo">Mi CV</a>
+          <button id="switch" class="switch">
+            <span><i class='bx bxs-sun bx-tada' ></i></span>
+            <span><i class='bx bxs-moon bx-tada bx-rotate-180' ></i></span>
+          </button>
         </div>
 
         <div class="nav__menu" id="nav-menu">
@@ -36,9 +41,10 @@
           </div>
 
           <ul class="nav__list">
+         
             <li class="nav__item"><a href="#Home" class="nav__link active">Inicio</a></li>
-            <li class="nav__item"><a href="#About" class="nav__link">Quién soy</a></li>
-            <li class="nav__item"><a href="#Skills" class="nav__link">Experiencia</a></li>
+            <li class="nav__item"><a href="#About" class="nav__link">Información Personal</a></li>
+            <li class="nav__item"><a href="#Skills" class="nav__link">Habilidades</a></li>
             <li class="nav__item"><a href="#Contact" class="nav__link">Contáctame</a></li>
           </ul>
         </div>
@@ -58,15 +64,15 @@
               <img src="Imagenes/Yo-Sin-Fondo.png" alt="Aparece una imagen mia">
             </div>
             
-            <h1 class="home__title">Lucas Muia</h1>
-            <span class="home__profession">Desarrollador inicial</span>
+            <h1 class="home__title">Lucas Joel Muia</h1>
+            <span class="home__profession"></span>
 
             <div class="home__social">
-              <a href="https://www.linkedin.com/in/lucas-muia-065662259" class="Home__social-link"><i class='bx bxl-linkedin'></i></a>
-              <a href="https://github.com/lucasmuia" class="Home__social-link"><i class='bx bxl-github'></i></a>
-              <a href="https://www.facebook.com/Lucas.Muia" class="Home__social-link"><i class='bx bxl-facebook-circle'></i></a>
-              <a href="https://www.instagram.com/lucasmuiaok" class="Home__social-link"><i class='bx bxl-instagram'></i></a>
-              <a href="https://wa.me/541169784422" class="Home__social-link"><i class='bx bxl-whatsapp'></i></a>
+              <a href="https://www.linkedin.com/in/lucas-muia-065662259" class="Home__social-link" target="_blank" ><i class='bx bxl-linkedin bx-flip-horizontal bx-burst' ></i></a>
+              <a href="https://github.com/lucasmuia" class="Home__social-link" target="_blank" ><i class='bx bxl-github bx-flip-horizontal bx-burst' ></i></i></a>
+              <a href="https://www.facebook.com/Lucas.Muia" class="Home__social-link" target="_blank" ><i class='bx bxl-facebook bx-flip-horizontal bx-burst' ></i></i></a>
+              <a href="https://www.instagram.com/lucasmuiaok" class="Home__social-link" target="_blank" ><i class='bx bxl-instagram bx-flip-horizontal bx-burst' ></i></i></a>
+              <a href="https://wa.me/541169784422" class="Home__social-link" target="_blank" ><i class='bx bxl-whatsapp bx-flip-horizontal bx-burst' ></i></i></a>
             </div>  
       
             <a download="" href="#" class="button home__button">Descargar Resumen</a>
@@ -77,11 +83,11 @@
       <!--== Acerca mio ==-->
       <section class="about section" id="About">
         <span class="section-subtitle"></span>
-        <h2 class="section-title">Quién soy</h2>
+        <h2 class="section-title">Información Personal</h2>
 
         <div class="about__container bd-grid">
           <div class="about__data">
-            <p class="about__description">Hola, mi nombre es Lucas y soy nuevo en el desarrollo de paginas web.</p>
+            <p class="about__description">Hola, mi nombre es Lucas y este es mi CV.</p>
             <img src="Imagenes/3-Sin-Fondo.png" alt="" class="about__img">
           </div>
               
@@ -90,18 +96,18 @@
               <h3 class="about__information-title">Información</h3>
             
               <div class="about__information-data">
-                <i class='bx bxs-user about__information-icon'></i>
-                <span>Lucas Muia.</span>
+                <i class='bx bxs-user bx-tada about__information-icon' ></i>
+                <span>Lucas Joel Muia.</span>
               </div>
           
               <div class="about__information-data">
-                <i class='bx bx-phone about__information-icon'></i>
-                <span>1169784422.</span>
+                <i class='bx bx-cake bx-tada about__information-icon' ></i>
+                <span>10/03/1992.</span>
               </div>
           
               <div class="about__information-data">
-                <i class='bx bx-envelope about__information-icon'></i>
-                <span>lucasmuia.lm@gmail.com.</span>
+                <i class='bx bx-world bx-tada bx-flip-vertical about__information-icon' ></i>
+                <span>Argentino.</span>
               </div>
             </div>
           </div>
@@ -110,21 +116,32 @@
                 
       <!--== Habilidades ==-->        
       <section class="Skills section" id="Skills">
-          <h2 class="section-title">Mi Experiencia</h2>
+          <h2 class="section-title">Habilidades</h2>
           
           <div>
             <div class="about__information">
 
               
                 <div class="about__information-data">
-                  <i class='bx bx-medal about__information-icon'></i>
-                  <span>Por ahora este es mi primer proyecto, pero mi objetivo es superarme en todos los aspectos.</span>
+                  <i class='bx bxs-car-mechanic bx-flip-vertical bx-burst about__information-icon' ></i>
+                  <span> Poseo conocimientos prácticos en el mantenimiento y reparación de vehículos. Comprensión de los sistemas mecanicos de automoviles y tecnicas de diagnostico. </span>
                 </div>
             
                 <div class="about__information-data">
-                  <i class='bx bx-support about__information-icon'></i>
-                  <span>Soporte técnico: Online 24/7.</span>
+                  <i class='bx bxs-factory bx-burst bx-flip-vertical about__information-icon' ></i>
+                  <span> Administre de empresa familiar: Responsable de la gestión y dirección de las operaciones diarias de la empresa, coordinando actividades y asegurando el cumplimiento de los objetivos comerciales. </span>
                 </div>
+
+                <div class="about__information-data">
+                  <i class='bx bx-support bx-flip-vertical bx-burst about__information-icon' ></i>
+                  <span> Durante mi tiempo como vendedor, tuve el privilegio de interactuar con una diversidad de clientes, brindándoles un servicio atento y personalizado. </span>
+                </div>
+
+                <div class="about__information-data">
+                  <i class='bx bx-world bx-flip-vertical bx-burst about__information-icon' ></i>
+                  <span> Uso de Microsoft Word, competente en la creación y edición de documentos asi como tambíen capaz de crear hojas de cálculo, realizar cálculos y utilizar funciones en Microsoft Excel. </span>
+                </div>
+
             </div>
           </div>
 
@@ -132,17 +149,17 @@
 
       <!--== Contactarme ==-->
       <section class="contact section" id="Contact">
-          <h2 class="section-title">Ponerse en contacto</h2>
+          <h2 class="section-title">Ponerse en contacto conmigo</h2>
 
           <div class="contact_container bd-grid">
             <div class="contact__button2">
               <a href="mailto:lucasmuia.lm@gmail.com">
-              <input type="button" value="Contactarme" class="button contact__button">
+              <input type="button" value="Contactarme" class="button contact__button"></a>
             </div>
 
             <div>
                 <div class="contact__info">
-                  <h3 class="contact__subtitle">LLámame</h3>
+                  <h3 class="contact__subtitle">Mi número telefónico</h3>
                   <span class="contact__text">1169784422</span>
                 </div>
                 
@@ -152,9 +169,8 @@
                 </div>
               
                 <div class="contact__info">
-                  <h3 class="contact__subtitle">Localización</h3>
-                  <span class="contact__text">Av. Calle Falsa 123</span>
-                  <span class="contact__text">Springfield - USA</span>
+                  <h3 class="contact__subtitle">Localidad</h3>
+                  <span class="contact__text">La Matanza</span>
                 </div>
 
             </div>
@@ -166,13 +182,13 @@
     <!--== Pie de página ==-->
     <footer class="footer section">
       <div class="footer__container bd-grid">
-        <h1 class="footer__title">Lucas</h1>
-        <p class="footer__description">Hola, soy lucas y este es mi sitio web.</p>
+        <h1 class="footer__title">Lucas Joel Muia</h1>
+        <p class="footer__description">Hola, soy lucas y este es mi cv.</p>
 
         <div class="footer__social">
-          <a href="https://www.facebook.com/Lucas.Muia" class="footer__link"><i class="bx bxl-facebook" ></i></a>
-          <a href="https://www.instagram.com/lucasmuiaok" class="footer__link"><i class="bx bxl-instagram" ></i></a>
-          <a href="https://twitter.com/LucasMuiaOk" class="footer__link"><i class="bx bxl-twitter" ></i></a>
+          <a href="https://www.facebook.com/Lucas.Muia" class="footer__link" target="_blank" ><i class='bx bxl-facebook bx-flip-vertical bx-burst' ></i></a>
+          <a href="https://www.instagram.com/lucasmuiaok" class="footer__link" target="_blank" ><i class='bx bxl-instagram bx-flip-vertical bx-burst' ></i></a>
+          <a href="https://twitter.com/LucasMuiaOk" class="footer__link" target="_blank" ><i class='bx bxl-whatsapp bx-flip-vertical bx-burst' ></i></a>
         </div>
 
         <p class="footer__copy">Todos los derechos reservados por LucasMuiaSA - 2023</p>
