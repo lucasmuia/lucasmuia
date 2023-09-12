@@ -1,3 +1,3 @@
 Mi Cv: https://lucasmuia.github.io/lucasmuia/
 
-![Mi CV](https://user-images.githubusercontent.com/123649916/218825481-8aebfe9b-c678-4a57-b974-3389ee36a8c0.jpg)
+![QR](https://github.com/lucasmuia/lucasmuia/assets/123649916/a08f8b21-f94f-4021-9073-4ab73c0bfa80)
